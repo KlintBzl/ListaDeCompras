@@ -7,14 +7,60 @@
 }
 
 header{
-    background-color: rgb(96, 164, 96);
+    background-color: rgb(201, 231, 55);
     padding-bottom: 2%;
     padding-top: 1%;
 }
 
 body{
-    background-image: url(mercado-1600x900.jpg);
+    background-image: url(/fotos/mercado-1600x900.jpg);
 }
-h1{
+h1 {
     text-align: center;
+}
+
+#maca1{
+    width: 3%;
+    height: 3%;
+
+}
+#maca2{
+    width: 3%;
+    height: 3%;
+}
+
+#lara1{
+    width: 3%;
+    height: 3%;
+}
+#lara2{
+    width: 3%;
+    height: 3%;
+}
+
+#mela1{
+    width: 3%;
+    height: 3%;
+}
+#mela2{
+    width: 3%;
+    height: 3%;
+}
+
+#kiwi1{
+    width: 3%;
+    height: 3%;
+}
+#kiwi2{
+    width: 3%;
+    height: 3%;
+}
+
+#limao1{
+    width: 3%;
+    height: 3%;
+}
+#limao2{
+    width: 3%;
+    height: 3%;
 }
