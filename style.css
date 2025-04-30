@@ -1,0 +1,20 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(96, 164, 96);
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+body{
+    background-image: url(mercado-1600x900.jpg);
+}
+h1{
+    text-align: center;
+}
