@@ -17,6 +17,6 @@ function mostrarLista() {
         console.log(`${index + 1}. ${item}`);
     });
 }
-
+addEventListener('submit' )
 adicionarItem(`${nome}`);
 mostrarLista();
