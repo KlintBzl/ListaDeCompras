@@ -8,14 +8,17 @@
     <script src="/js/script.js" defer></script>
 </head>
 <body>
-    <header>
-        <h1>Lista de Compras <b>Interativa</b></h1>
-    </header>
 
-    <div id="formula">
-        <input type="text" id="NProduto" placeholder=" Nome do Produto"> <input type="text" id="qtd" placeholder=" Quantidade"> <br>
-        <input type="submit" id="Add" value=" Adicionar item "> <br>
-        <input type="submit" id="rem" value=" Limpar Lista ">
-    </div>
+        
+
+
+    <form id="formula">
+        <h1>Lista de Compras <b>Interativa</b></h1>
+        <input type="text" id="produto" placeholder="Nome do produto" required />
+        <input type="number" id="quantidade" placeholder="Quantidade" min="1" required />
+        <button type="submit" id="add">Adicionar Item</button> <br>
+
+        <button id="limpar">Limpar Lista</button>
+    </form>
 </body>
 </html>
